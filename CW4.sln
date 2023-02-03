@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CW4", "CW4\CW4.csproj", "{3E6694DA-83BB-4AD9-AB12-87A3AC14696B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CW4P2", "CW4P2\CW4P2.csproj", "{F68F1324-F205-4EEB-B44F-3F0F1D3AF3B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3E6694DA-83BB-4AD9-AB12-87A3AC14696B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E6694DA-83BB-4AD9-AB12-87A3AC14696B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E6694DA-83BB-4AD9-AB12-87A3AC14696B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F68F1324-F205-4EEB-B44F-3F0F1D3AF3B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F68F1324-F205-4EEB-B44F-3F0F1D3AF3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F68F1324-F205-4EEB-B44F-3F0F1D3AF3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F68F1324-F205-4EEB-B44F-3F0F1D3AF3B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
