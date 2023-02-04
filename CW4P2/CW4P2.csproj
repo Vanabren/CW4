@@ -43,8 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Asha.cs" />
+    <Compile Include="GalaxyS2.cs" />
+    <Compile Include="Genie.cs" />
+    <Compile Include="HTCFactory.cs" />
+    <Compile Include="IDumb.cs" />
+    <Compile Include="IPhoneFactory.cs" />
+    <Compile Include="ISmart.cs" />
+    <Compile Include="Lumia.cs" />
+    <Compile Include="Manufacturers.cs" />
+    <Compile Include="NokiaFactory.cs" />
+    <Compile Include="PhoneTypeChecker.cs" />
+    <Compile Include="Primo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SamsungFactory.cs" />
+    <Compile Include="Titan.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
