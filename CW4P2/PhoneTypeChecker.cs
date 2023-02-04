@@ -11,17 +11,20 @@ namespace CW4P2
         IPhoneFactory factory;
         Manufacturers manu;
 
+        // Parameterized constructor to take enum value from manufacturers argued to manu
         public PhoneTypeChecker(Manufacturers m)
         {
             manu = m;
         }
 
+        // Switches through various cases of types of products and prints names of products to Console
         public void CheckProducts() 
         {
             ISmart smart;
             IDumb dumb;
             switch (manu)
             {
+                // Samsung Manufacturers
                 case (Manufacturers.Samsung):
                     factory = new SamsungFactory();
                     smart = factory.GetSmart();
@@ -32,6 +35,7 @@ namespace CW4P2
 
                     break;
 
+                // HTC Manufacturers 
                 case (Manufacturers.HTC):
                     factory = new HTCFactory();
                     smart = factory.GetSmart();
@@ -42,6 +46,7 @@ namespace CW4P2
 
                     break;
 
+                // Nokia Manufacturers
                 case (Manufacturers.Nokia):
                     factory = new NokiaFactory();
                     smart = factory.GetSmart();
