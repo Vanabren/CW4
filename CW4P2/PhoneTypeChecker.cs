@@ -18,24 +18,38 @@ namespace CW4P2
 
         public void CheckProducts() 
         {
+            ISmart smart;
+            IDumb dumb;
             switch (manu)
             {
                 case (Manufacturers.Samsung):
                     factory = new SamsungFactory();
-                    factory.GetSmart();
-                    factory.GetDumb();
+                    smart = factory.GetSmart();
+                    dumb = factory.GetDumb();
+
+                    Console.WriteLine(smart.getName());
+                    Console.WriteLine(dumb.getName());
+
                     break;
 
                 case (Manufacturers.HTC):
                     factory = new HTCFactory();
-                    factory.GetSmart();
-                    factory.GetDumb();
+                    smart = factory.GetSmart();
+                    dumb = factory.GetDumb();
+
+                    Console.WriteLine(smart.getName());
+                    Console.WriteLine(dumb.getName());
+
                     break;
 
                 case (Manufacturers.Nokia):
                     factory = new NokiaFactory();
-                    factory.GetSmart();
-                    factory.GetDumb();
+                    smart = factory.GetSmart();
+                    dumb = factory.GetDumb();
+
+                    Console.WriteLine(smart.getName());
+                    Console.WriteLine(dumb.getName());
+
                     break;
 
                 default:

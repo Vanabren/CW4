@@ -10,6 +10,12 @@ namespace CW4P2
     {
         static void Main(string[] args)
         {
+            foreach (Manufacturers m in Enum.GetValues(typeof(Manufacturers))) 
+            {
+                PhoneTypeChecker check = new PhoneTypeChecker(m);
+                check.CheckProducts();
+            }
+            
         }
     }
 }

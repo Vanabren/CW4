@@ -10,7 +10,7 @@ namespace CW4P2
     {
         public string getName()
         {
-            return "Phone name: Lumia.";
+            return "Nokia Smart Phone name: Lumia.";
         }
     }
 }

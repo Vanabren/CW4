@@ -10,7 +10,7 @@ namespace CW4P2
     {
         public string getName()
         {
-            return "Phone name: GalaxyS2.";
+            return "Samsung Smart Phone name: GalaxyS2.";
         }
     }
 }

@@ -10,7 +10,7 @@ namespace CW4P2
     {
         public string getName()
         {
-            return "Phone name: Genie.";
+            return "Samsung Dumb Phone name: Genie.";
         }
     }
 }
